@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+  <body id="changeBodyColor"> 
+    <h1 id="header">CUstomer Review</h1>
+    <textarea  id="reviewText" rows="10" cols="50" placeholder="Ukhala ngani?"></textarea>
+    <br>
+    
+    <button id="review-button" onclick="addReview()">
+      Add Review
+    </button>
+    <button id="delete-button" onclick="deleteReview()">
+      Delete Review
+    </button>
+     <br>
+     
+    <ol id='review-Container' type="i">
+     
+    </ol>
+     
+     <br>
+    
+     <h3>Change themes</h3>
+    <button onclick="themeOne()">
+      Theme1
+    </button>
+    <br>
+    
+    <button onclick="lightMode()">
+      Light Mode
+    </button>
+    
+    <h3>Reset</h3>
+    <button onclick="defaultTheme()">
+      Default Theme (Dark Mode)
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

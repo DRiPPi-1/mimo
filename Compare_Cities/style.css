@@ -1,0 +1,17 @@
+.city{
+  background-color: lavenderblush;
+  font-weight: bold;
+  padding: 7px 10px 7px 10px;
+}
+
+body{
+  text-align: center;
+  font-size: 17px;
+  color: midnightblue;
+}
+
+.comparison{
+  color: white;
+  background-color: blueViolet;
+  padding: 7px 10px 7px 10px;
+}

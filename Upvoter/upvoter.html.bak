@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>
+      Cat of the year
+    </h1>
+    <br>
+    <img src="C:\temp1\SELF-TAUGHT\html-css-course\mimo\Upvoter\tongue-out.jpg">
+    
+    <p>
+      <em>Puuurr</em>
+    </p>
+    
+    <p id="likers">3 likes</p>
+    
+    <button id="like-Button" onclick="like()">Like</button>
+    
+    <button id="dislike-Button" onclick="dislike()">Dislike</button>
+    
+  </body>
+</html>

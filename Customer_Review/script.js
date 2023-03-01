@@ -1,0 +1,27 @@
+function addReview() {
+  const review = document.getElementById("reviewText").value;
+  const addedReview = document.createElement("li");
+  addedReview.textContent = review;
+  const container = document.getElementById("review-Container");
+  container.appendChild(addedReview);
+}
+
+function deleteReview() {
+  const container = document.getElementById("review-Container");
+  container.removeChild(addedReview);
+}
+       
+function themeOne() {
+  document.getElementById("header").style.backgroundColor = 'purple';
+  document.getElementById("changeBodyColor").style.backgroundColor = 'rgb(100, 100, 100)';
+}
+
+function defaultTheme() {
+  document.getElementById("header").style.backgroundColor = 'pink';
+  document.getElementById("changeBodyColor").style.backgroundColor = 'rgb(70, 70, 70)';
+}
+
+function lightMode(){
+  document.getElementById("header").style.backgroundColor = 'pink';
+  document.getElementById("changeBodyColor").style.backgroundColor = 'white';
+}

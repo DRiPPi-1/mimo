@@ -1,0 +1,43 @@
+img {
+  height: 200px;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  width: 70px;
+  margin: 5px;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  transition:opacity 0.15s;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+#like-Button {
+  background-color: rgb(63, 126, 168);
+  margin-right: 10px;
+}
+
+#dislike-Button {
+  background-color: rgb(179, 50, 50);
+  margin-left: 10px;
+}
+
+body {
+  background-color: rgb(136, 105, 165);
+  text-align: center;
+}
+
+p{
+  color: wheat;
+  font-weight:bold;
+}

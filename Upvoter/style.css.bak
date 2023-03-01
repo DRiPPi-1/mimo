@@ -1,0 +1,18 @@
+img {
+  height: 200px;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  width: 60px;
+}
+
+#like-Button {
+  background-color: rgb(11, 20, 112);
+  color: white;
+}
+
+#dislike-Button {
+  background-color: rgb(200, 0, 0);
+}
