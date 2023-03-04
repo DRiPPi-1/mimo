@@ -1,0 +1,10 @@
+.headingOne{
+  color: rgb(0, 255, 0);
+  background-color: blueviolet;
+  text-align: right;
+}
+
+.headingTwo{
+  color: red;
+  background-color: aqua;
+}
